@@ -1,0 +1,14 @@
+{
+	#配置各组件公共包名和所在包名
+	"packageName": "com.zong.article",
+	"packageBean": "bean",
+	"packageMapper": "dao",
+	#指定生成的bean名【可选】
+	#"className":"Video"
+	"tableName":"video",
+	#数据库连接配置
+	"jdbc.driverClassName": "com.mysql.jdbc.Driver",
+	"jdbc.url": "jdbc:mysql://localhost:3306/good",
+	"jdbc.username": "root",
+	"jdbc.password": "Zong"
+}
