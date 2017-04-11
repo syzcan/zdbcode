@@ -28,7 +28,7 @@ public class FileUtils {
 	 * @return List<File>
 	 */
 	public static List<File> listFile(File file, String type) {
-		List<File> files = new ArrayList<>();
+		List<File> files = new ArrayList<File>();
 		for (File f : file.listFiles()) {
 			if (f.isDirectory()) {
 				files.addAll(listFile(f, type));
